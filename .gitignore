@@ -1,0 +1,27 @@
+# Local configuration and secrets
+skillExchange/Web.config
+skillExchange/Web.*.config
+skillExchange/Documentation/SmarterAspDeployment.md
+*.PublishSettings
+*.pubxml
+
+# Build and IDE artifacts
+.vs/
+**/[Bb]in/
+**/[Oo]bj/
+*.user
+*.suo
+
+# Database backups and generated delivery files
+skillExchange/Database/
+*.bak
+*.rar
+delivery/
+tmp/
+report_render*/
+
+# Generated reports and temporary files
+*.docx
+*.pdf
+__pycache__/
+*.pyc
